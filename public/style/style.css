@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+#hero .inside {
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgba(26, 25, 25, 0.5);
+  color: white;
+}
+
+.carousel {
+  overflow: hidden;
+}
+.carousel img {
+  height: 35rem;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}/*# sourceMappingURL=style.css.map */
